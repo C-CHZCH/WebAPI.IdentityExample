@@ -41,7 +41,7 @@ namespace WebAPI.IdentityExample.Controllers
             );
         }
 
-        /// <summary>
+        /*/// <summary>
         ///     注册操作
         /// </summary>
         /// <param name="model">注册Model</param>
@@ -56,7 +56,7 @@ namespace WebAPI.IdentityExample.Controllers
                     success => Ok(success),
                     failed => BadRequest(failed)
                 );
-        }
+        }*/
 
         /// <summary>
         ///     注册角色为Teacher的用户，仅有管理员能操作

@@ -19,5 +19,10 @@
         ///     班级人数
         /// </summary>
         public int ClassNumber { get; set; }
+
+        /// <summary>
+        ///     邀请代码
+        /// </summary>
+        public string ClassCode { get; set; }
     }
 }

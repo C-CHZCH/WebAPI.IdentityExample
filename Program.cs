@@ -41,6 +41,8 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
 
 builder.Services.AddScoped<IClassService, ClassService>();
+
+builder.Services.AddScoped<IAdminService, AdminService>();
 // Authentication
 builder.Services.AddAuthentication(options =>
 {

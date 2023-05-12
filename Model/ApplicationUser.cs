@@ -15,6 +15,6 @@ namespace WebAPI.IdentityExample.Model
         /// <summary>
         ///     班级邀请码
         /// </summary>
-        public string? ClassCode { get; set; }
+        public Guid ClassId { get; set; }
     }
 }

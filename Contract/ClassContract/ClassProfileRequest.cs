@@ -6,13 +6,13 @@
     public class ClassProfileRequest
     {
         /// <summary>
-        ///     User的账户名
+        ///     User的Id
         /// </summary>
-        public string username { get; set; }
+        public string UserId { get; set; }
 
         /// <summary>
         ///     班级的Id
         /// </summary>
-        public string ClassCode { get; set; }
+        public Guid ClassId { get; set; }
     }
 }

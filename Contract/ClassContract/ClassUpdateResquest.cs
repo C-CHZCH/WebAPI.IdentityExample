@@ -21,6 +21,7 @@ namespace WebAPI.IdentityExample.Contract.ClassContract
         ///     根据邀请码来锁定目标班级
         /// </summary>
         [Required]
+        [MaxLength(30)]
         public string ClassCode { get; set; }
     }
 }

@@ -112,7 +112,7 @@ public class AccountService : IAccountService
                     Status = "Null",
                     Message = "Username is invalid"
                 };
-            user.ClassCode = classModel.Code;
+            user.ClassId = classModel.Id;
             user.ClassName = classModel.Name;
             var Member = new ClassMember
             {
